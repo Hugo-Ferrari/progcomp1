@@ -1,0 +1,48 @@
+body {
+    /* fonte do texto */
+    font-family: Arial, sans-serif;
+    background-color: rgb(181, 197, 248);
+    /* usa modelo FlexBox, conceito de caixa para posicionamento */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página 100% da altura da página*/
+    align-items: center; /* centraliza na vertical */
+
+}
+.container {
+    background-color: white;
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* borda */
+    text-align: center; /* texto centralizado */
+    box-shadow: 0 4px 8px ; /* sombra */
+}
+button {
+    background-color: rgb(248, 146, 222);
+    color: white; 
+    border: none;
+    /* 10 abaixo e 10 acima e 20 esquerda e 20 direita */
+    padding: 10px 20px;
+    text-decoration: underline;
+    ;
+    transition: all 0,3s ease;
+    
+}
+/* ao passar o mouse em cima do botão */
+button:hover {
+    background-color: rgb(181, 156, 250);
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 4px, 4px, 2px rgba(0, 0, 0, 0.3 );
+    cursor: pointer;
+    
+}
+
+.foto {
+    /* borda com cantos arredondados*/
+    border-radius: 25%;
+    /* largura */
+    width: 100px;
+    /* altura */
+    height: 100px;
+    /* espaçamento externo abaixo */
+    margin-bottom: 10px;
+}
