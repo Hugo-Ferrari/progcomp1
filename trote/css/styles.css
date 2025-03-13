@@ -20,6 +20,7 @@ nav{
 #links-menu{
     display:flex;
     gap: 30px; /*distancia entre os itens do menu */
+    
 }
 nav a{ /*configura os itens do menu */
     color: white;
@@ -30,4 +31,23 @@ nav a{ /*configura os itens do menu */
     border-radius: 5px; 
     cursor: pointer;
     
+    
+}
+img{
+    width: 120px;
+    height: auto;
+    margin-right: 80px;
+    border-radius: 10px;
+
+}
+.container{
+    width: 80%;
+    background:white ;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
 }
