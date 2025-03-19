@@ -66,3 +66,24 @@ table{
     margin: auto;
 }
 
+#laranja{
+    background-color: orange;
+    
+}
+#preta{
+    background-color: black;
+    color: white;
+}
+#roxa{
+    background-color: purple;
+    
+}
+#verde{
+    background-color:green
+    
+}
+#vermelha{
+    background-color: red;
+    
+}
+
