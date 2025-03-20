@@ -64,26 +64,35 @@ table tr td{
 
 table{
     margin: auto;
+    width: 100%;
+    
 }
 
-#laranja{
+.laranja{
     background-color: orange;
     
 }
-#preta{
+.preta{
     background-color: black;
     color: white;
 }
-#roxa{
-    background-color: purple;
+.roxa{
+    background-color:violet;
     
 }
-#verde{
-    background-color:green
+.verde{
+    background-color:rgb(35, 239, 35);
     
 }
-#vermelha{
+.vermelha{
     background-color: red;
     
 }
-
+.azul{
+    background-color: navy;
+    color: white;
+    margin: 20px;
+}
+.cinza{
+    background-color: rgb(168, 168, 192);
+}
