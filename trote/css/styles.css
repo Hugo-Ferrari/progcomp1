@@ -42,7 +42,7 @@ img{
 }
 .container{
     width: 80%;
-    background:white ;
+    background:rgb(222, 221, 221) ;
     border-radius: 10px;
     margin: 20px auto;
     padding: 20px;
@@ -96,3 +96,14 @@ table{
 .cinza{
     background-color: rgb(168, 168, 192);
 }
+.padrinhos{
+    color: red;
+}
+
+.campos{
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+ 
+ 
