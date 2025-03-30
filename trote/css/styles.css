@@ -2,16 +2,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; /* espaçamento externo da pagina */
     padding: 0;/* espaçamento interno da pagina */
-    background-color: #f4f4f4;
+    background-color:#f1f1ea;
     text-align: center; /* texto centralizado */
 }
 header{
-    background-color: #28a745;
+    background-color:#fbb304;
     color: white;
     padding: 15px 0px ; /*15 px é o expaçamento interno a cima e abaixo e 0px espacamento interno a direta e a esquerda*/
 }
 nav{
-    background-color: #007bff;
+    background-color: #094482;
     padding: 10px;
     display: flex; /*fex boxing*/
     justify-content: space-between; /*espaço entre os elementos do menu */
@@ -20,7 +20,6 @@ nav{
 #links-menu{
     display:flex;
     gap: 30px; /*distancia entre os itens do menu */
-    
 }
 nav a{ /*configura os itens do menu */
     color: white;
@@ -30,9 +29,13 @@ nav a{ /*configura os itens do menu */
     background-color: #0056b3;
     border-radius: 5px; 
     cursor: pointer;
-    
-    
 }
+#links-menu :hover{
+    background-color: #000000; 
+    transform: scale(1.05);
+}
+
+
 img{
     width: 120px;
     height: auto;
@@ -103,4 +106,21 @@ table{
 .campos{
     margin-bottom: 10px;
     padding: 10px;
+}
+.caixote{
+    background-color: #adbccc;
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: auto;
+     
+}
+.importante{
+    background-color: #dee3b5;
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: auto;
 }
