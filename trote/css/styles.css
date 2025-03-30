@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0; /* espaçamento externo da pagina */
     padding: 0;/* espaçamento interno da pagina */
     background-color:#f1f1ea;
@@ -123,4 +123,7 @@ table{
     margin: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     height: auto;
+}
+.cordenacao{
+    font-size: 12px;
 }
