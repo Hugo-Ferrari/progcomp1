@@ -9,6 +9,8 @@ header{
     background-color:#fbb304;
     color: white;
     padding: 15px 0px ; /*15 px é o expaçamento interno a cima e abaixo e 0px espacamento interno a direta e a esquerda*/
+    font-weight: 800;
+    font-size:larger;
 }
 nav{
     background-color: #094482;
@@ -126,4 +128,7 @@ table{
 }
 .cordenacao{
     font-size: 12px;
+}
+.tabela{
+    width: 70%;
 }
