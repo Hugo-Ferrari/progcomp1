@@ -2,7 +2,7 @@ function calcular(){
     //vamos criar duas variaveis 
     //JS as variaveis nn possuem tipo
 
-    let mascote, homenagem , leite, kit, suplemento, sangue, soma, equipe 
+    let mascote, homenagem , leite, kit, suplemento, sangue,pacotedearroz5kg,pacotedearroz1kg,PacotedeFeijão02Kg,PacotedeFeijão01Kg,PacotedeMacarrãode400,Óleo900ml , soma, equipe 
     mascote = Number(document.getElementById("mascote").value )
     // recupera a quantidade de litros de leite
     homenagem = Number(document.getElementById("homenagem").value)
@@ -14,9 +14,22 @@ function calcular(){
     suplemento = Number(document.getElementById("suplemento").value)
 
     sangue= Number(document.getElementById("sangue").value)
+
+    pacotedearroz5kg = Number(document.getElementById)(pacotedearroz5kg).value
+
+    pacotedearroz1kg = Number(document.getElementById)(pacotedearroz1kg).value
+
+    PacotedeFeijão02Kg = Number(document.getElementById)(PacotedeFeijão02Kg).value
+
+    PacotedeFeijão01Kg = Number(document.getElementById)(PacotedeFeijão01Kg).value
+
+    PacotedeMacarrãode400 = Number(document.getElementById)(PacotedeMacarrãode400).value
+
+    Óleo900ml = Number (document.getElementById)(Óleo900ml).value
+
     // calcular a soma 
      
-    soma = mascote + homenagem + (2*(leite)) 
+    soma = mascote + homenagem + (2*(leite)) + (20*(sangue)) +(5* (pacotedearroz5kg)) + pacotedearroz1kg + (2*(PacotedeFeijão02Kg)) + PacotedeFeijão01Kg + (0.5*(PacotedeMacarrãode400)) + Óleo900ml
      // vamos calcular a pontuação considerando metas de kitssuplemntos 
      equipe =document.getElementById("equipe").value
      if(equipe =="Laranja"){
