@@ -4,13 +4,15 @@ body{
     padding: 0;/* espaçamento interno da pagina */
     background-color:#f1f1ea;
     text-align: center; /* texto centralizado */
+    
 }
 header{
     background-color:#fbb304;
     color: white;
     padding: 15px 0px ; /*15 px é o expaçamento interno a cima e abaixo e 0px espacamento interno a direta e a esquerda*/
     font-weight: 800;
-    font-size:larger;
+    font-size:30px;
+    
 }
 nav{
     background-color: #094482;
@@ -22,19 +24,22 @@ nav{
 #links-menu{
     display:flex;
     gap: 30px; /*distancia entre os itens do menu */
+    padding: 30px;
 }
 nav a{ /*configura os itens do menu */
     color: white;
     text-decoration:none; /* não decora os links*/
-    padding: 10px 15px;
-    font-size: 18px;
+    padding: 15px;
+    font-size: 20px;
     background-color: #0056b3;
     border-radius: 5px; 
     cursor: pointer;
+    box-shadow: 0px 4px 8px black
 }
 #links-menu :hover{
     background-color: #000000; 
     transform: scale(1.05);
+
 }
 
 
@@ -48,11 +53,14 @@ img{
 .container{
     width: 80%;
     background:rgb(222, 221, 221) ;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 20px auto;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
+    box-shadow: 0 4px 8px;
 }
+
+
 h2{
     text-align: center;
 }
@@ -132,5 +140,14 @@ table{
 }
 .tabela{
     width: 70%;
+}
+.containerC{
+    width: 80%;
+    background:rgb(222, 221, 221) ;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px;
 }
 

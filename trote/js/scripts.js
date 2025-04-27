@@ -1,36 +1,36 @@
 function calcular(){
     // vamos criar duasvariáveis
     // JS as variáveis não possuem tipo
-let mascote, homenagem, leite, kit, suplemento, sangue, soma, equipe,arroz05, arroz01, feijao02, feijao01, macarrao, oleo
+let mascote, homenagem, kit, suplemento, sangue, soma, equipe, arroz5, arroz1, feijao2, feijao1, macarrao, oleo, leite
     // recupera o valo do mascote digitado pelo usuário
 mascote = Number(document.getElementById("mascote").value)
     // recupera o valo da homenagem digitado pelo usuário
 homenagem = Number(document.getElementById("homenagem").value)
-    // recupera o valo da homenagem digitado pelo usuário
-leite = Number(document.getElementById("leite").value)
     // recupera o valor de kits digitado pelo usuário
 kit = Number(document.getElementById("kit").value)
     // recupera o valor de suplemento digitado pelo usuário
 suplemento = Number(document.getElementById("suplemento").value)
- // recupera o valor de doação de sangue digitado pelo usuário
+    // recupera o valor de doação de sangue digitado pelo usuário
 sangue = Number(document.getElementById("sangue").value)
+    // recupera o valor do arroz de 5kg avulso digitado pelo usuário
+arroz5 = Number(document.getElementById("arroz5").value)
+    
+arroz1 = Number(document.getElementById("arroz1").value)
+    
+feijao2 = Number(document.getElementById("feijao2").value)
+    
+feijao1 = Number(document.getElementById("feijao1").value)
+   
+macarrao = Number(document.getElementById("macarrao").value)
 
-arroz05 = Number(document.getElementById("arroz05").value)
-
-arroz01 = Number(document.getElementById("arroz01").value)
-
-feijao02 = Number(document.getElementById("feijao02").value)
-
-feijao01 = Number(document.getElementById("feijao01").value)
-
-macarrao = Number ( document.getElementById("macarrao").value)
-
+leite = Number(document.getElementById("leite").value)
+   
 oleo = Number(document.getElementById("oleo").value)
 
+
+
 // calcular a soma parcial
-soma = mascote + homenagem 
-
-
+soma = mascote + homenagem + (arroz5*5) + arroz1 + (feijao2*2) + feijao1 + (macarrao*0.5) + (leite*2) + oleo
 //vamos calcular a pontuação  considerando metas de kit, suplementos e sangue
 equipe = document.getElementById("equipe").value
 if (equipe == "Laranja"){
@@ -133,12 +133,6 @@ else{
         soma = soma + (sangue * 20)
     }
 }
-
-
-
-
-
-soma = soma + (arroz05*5) +arroz01 + (feijao02*2) +feijao01 + (macarrao*0,5) + oleo
 
     //retorna o valor ao html
     //template string
